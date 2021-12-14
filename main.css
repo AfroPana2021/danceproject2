@@ -1,0 +1,135 @@
+
+body {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "header header"
+                         "intros  faq"
+                         "articles faq"
+                         "footer   footer";
+grid-column-gap: 15px;
+}
+h1{ font: 50px}
+section > contactInfo {
+    align-self: auto;
+}
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+body > aside {grid-area:faq;}
+body > section {grid-area:articles;
+            grid-row:2;
+            grid-column: 1/-1}
+body > footer {grid-area:footer;}
+
+h1{color: firebrick;
+    font-family:fantasy,serif;
+}
+
+section {
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+section > h1 {
+    grid-area: 1/1/2/3;
+}
+address, article, aside, blockquote, body, cite, div, dl, dt, ddd, em, figcaption, figure, footer, h1, h2,h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+    background: transparent;
+    font-size: 100%;
+    margin: 0; 
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fc0303;
+  float: left;
+  width: 280px;
+}
+
+div.gallery:hover {
+  border: 1px solid ;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+html{background-color: aquamarine;}
+
+body {background-color:aquamarine;
+      font-family: fantasysans-serif;
+      margin-left: auto;
+      margin-right:auto;
+      width: 95%;
+      min-width: 640px;}
+
+body > article {
+    color:black;
+    text-align: center;
+}
+body > article > h2 {
+    color: aquamarine;
+    text-align: center;
+}
+body > article > div {
+    color: aquamarine;
+    text-align: center;
+}
+body > aside {
+    color: aquamarine;
+}
+body > aside > h3 {
+    color: white;
+    text-align: center;
+}
+
+header {background-color:aquamarine;
+        }
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: blueviolet;
+}
+nav > ul {line-height:3em;
+      list-style-type:none;
+      padding-left:1px;
+      text-decoration-color: aquamarine;
+}
+nav.horizontalNavigation li {
+    float:left;
+    width: 22%;
+    text-decoration: none;
+    display:block;
+    background-color: aquamarine;
+    text-align: center;
+}
+nav.horizontalNavigation a:hover {
+    background-color:aquamarine;
+    text-decoration: none;
+}
+nav.horizontalNavigation a {
+    text-decoration: none;
+}
+.accordion >.accordion-item {
+    background-color: aquamarine;
+    border-color: white;
+    width: 50%;
+}
+.card
+
+footer {background-color:black;
+text-align: center}
