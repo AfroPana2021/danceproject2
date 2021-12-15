@@ -6,6 +6,7 @@ body {
                          "intros  faq"
                          "articles faq"
                          "footer   footer";
+    
 grid-column-gap: 15px;
 }
 h1{ font: 50px}
@@ -88,7 +89,7 @@ body > aside {
     color: aquamarine;
 }
 body > aside > h3 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -126,10 +127,14 @@ nav.horizontalNavigation a {
 }
 .accordion >.accordion-item {
     background-color: aquamarine;
-    border-color: white;
+    border-color: black;
     width: 50%;
 }
-.card
-
+.card {
+color:black;
+}
+.text {
+color: black;
+}
 footer {background-color:black;
 text-align: center}
